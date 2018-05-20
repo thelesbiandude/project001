@@ -11,16 +11,21 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
     <!-- Header for sidebar and modal -->
     <header>
-        
         <ul id="slide-out" class="sidenav sidenav-fixed">
-            <li class="logo grey lighten-3"><a id="logo-container" class="brand-logo"><img src="temp-logo.png"></a></li>
+            <li class="logo"><a id="logo-container" class="brand-logo"><img src="temp-logo.png"></a></li>
+            <li>
+                <a><i class="material-icons">email</i>Mailing Lists</a>
+            </li>
+            <li><a><i class="material-icons">photo</i>Add New Image</a></li>
+            <li>
+                <a><i class="material-icons">photo_library</i>Selected Images (10)</a>
+            </li>
         </ul>
 
         <a data-target="slide-out" class="sidenav-trigger"><i class="material-icons pink-text text-darken-1">menu</i></a>
-        
     </header>
 
     <!-- Main section for page content -->
@@ -29,6 +34,9 @@
     <!--Import js files-->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/q.js"></script>
+    <script type="text/javascript" src="js/storage.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

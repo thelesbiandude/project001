@@ -14,12 +14,15 @@ a {
     font-size: 40px;
 }
 
-/* Container for company logo */
+/* Company logo */
+.logo {
+    background-color: #2a0003;
+    pointer-events: none;
+}
 #logo-container {
     padding: 5px 0;
     height: 132px;
     text-align: center;
-    cursor: default;
 }
 #logo-container>img {
     height: 120px;
