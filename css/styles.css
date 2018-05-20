@@ -1,0 +1,26 @@
+/* Element styles */
+a {
+    cursor: pointer;
+}
+
+/* Sidenav trigger (for small screens) */
+.sidenav-trigger {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.sidenav-trigger>i {
+    font-size: 40px;
+}
+
+/* Container for company logo */
+#logo-container {
+    padding: 5px 0;
+    height: 132px;
+    text-align: center;
+    cursor: default;
+}
+#logo-container>img {
+    height: 120px;
+}
